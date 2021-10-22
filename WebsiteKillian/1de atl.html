@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>killian</title>
+        <!-- noodzakelijk voor validatie-->
+        <meta name="description" content=".">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="killian.css">
+    </head>
+    <body>
+        <div >
+            <h1 id="voornaam" class="klasse">
+                ik ben killian
+            </h1>
+           <h2 class="klasse" id="achternaam">
+               meys
+           </h2>
+           <!--<a><a/> is voor links-->
+           <!--href in het a element daar plak je de link in tussen quotes -> ""-->
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">klick dit</a>
+        </div>
+       
+    </body>
+    <script>
+        geefEenNaamTerug("paulus ", "yellow");
+        lol("lol", "green");
+        
+        function geefEenNaamTerug(voornaam, kleur){
+        var killian = document.getElementById("voornaam");
+        killian.style.color = kleur;
+        killian.innerHTML += voornaam;
+        }
+
+        function lol(achternaam, kleur){
+            var killian = document.getElementById("achternaam");
+            killian.innerHTML = achternaam;
+            killian.style.color = kleur;
+        }
+
+    </script>
+
+    
+    <script>
+        //in een variabele(zoals som hieronder) kunnen we alles steken als geheugen
+        //dit kan een som zijn maar ook een stuk tekst
+        //via console.log kunnen we dit checken door op de pagina op f12 te drukken en dan naar de console tab te gaan
+        var som = 1 - 5;
+        
+        //een if moet je bedenken als het woord als
+        //als de voorwaarde klopt wordt de code tussen de haakjes uitgevoerd
+        //dus stel de voorwaarde is dat de som gelijk is aan 3
+        //dan wordt de code uitgevoerd als dit effectief waar is
+        if (som == 3) {
+            console.log("dit is 3");
+        }
+
+
+        //als de som  kleiner is dan 3
+        if (som < 3) {
+            console.log("de som is kleiner dan 3");
+        }
+
+
+
+
+        if (som > 3) {
+            console.log("dit is meer dan 3");   
+        }
+
+        var uitleg = "hello world";
+        console.log(uitleg + som);
+    </script>
+    
+</html>
