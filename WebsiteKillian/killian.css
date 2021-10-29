@@ -10,3 +10,13 @@
 
 	color:blue;
 }
+.bg-info
+{
+    background-color: lawngreen!important;
+}
+.nav-item:hover, .navbar-brand:hover{
+    color: yellow!important;
+    font-size: 20px;
+    /*transition zorgt ervoor dat het een leuke animatie heeft*/
+    transition: ease 0.8s;
+}

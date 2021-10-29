@@ -1,0 +1,9 @@
+git commandos voor te uploaden
+
+1.git status
+
+2.git add .
+
+3.git commit -m "hier typ je een text tussen de quotes"
+
+4.git push
