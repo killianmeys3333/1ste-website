@@ -20,3 +20,19 @@
     /*transition zorgt ervoor dat het een leuke animatie heeft*/
     transition: ease 0.8s;
 }
+
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+    bottom: 0 !important;
+    width:100%;
+height: 5em;
+
+    background-color: lawngreen!important;
+}
+
+footer.footer a{
+
+}
